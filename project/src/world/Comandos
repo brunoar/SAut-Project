@@ -1,0 +1,1 @@
+rosrun stage_ros stageros /home/bernardo/ros_ws/world/pioneer2_walle.world

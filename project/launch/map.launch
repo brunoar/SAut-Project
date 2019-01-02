@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="project" type="publishmap.py" name="publish_map" output="screen" />
+</launch>

@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="project" type="subscriber.py" name="check_odometry" output="screen" />
+    <node pkg="project" type="kalman.py" name="kalman_filter" output="screen" launch-prefix="xterm -e"/>
+    <node pkg="project" type="measure_prediction.py" name="measure_prediction" output="screen" launch-prefix="xterm -e"/>
+    <node pkg="project" type="icp.py" name="icp" output="screen" launch-prefix="xterm -e"/>
+</launch>

@@ -1,0 +1,11 @@
+Test the project:
+roscore
+rosrun depthimage_to_laserscan depthimage_to_laserscan image:=camera/depth/image_rect_raw
+roslaunch project broadcast_tf.launch
+roslaunch project odom.launch
+roslaunch project kalman.launch
+roslaunch project predictedmeasure.launch
+roslaunch project icp.launch
+rosbag play ...
+
+in src/project/src/images: rosrun map_server map_sver new_map.yaml

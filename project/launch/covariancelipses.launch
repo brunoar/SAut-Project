@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="project" type="covariance_elipses.py" name="covariance_elipses" output="screen" />
+</launch>

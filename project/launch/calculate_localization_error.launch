@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="project" type="calculate_localization_error.py" name="calculate_localization_error" output="screen" />
+</launch>

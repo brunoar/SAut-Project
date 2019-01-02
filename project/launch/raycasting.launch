@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="project" type="ray_casting.py" name="ray_casting" output="screen" />
+</launch>

@@ -1,0 +1,10 @@
+imagens:
+goodguy prediction
+rx, ry, rz, qx, qy, qz = 1
+
+goodguy update cov not dynamic
+Q e R de acordo com report do outro grupo
+gamma = 10
+gamma = 30
+gamma = 5
+
